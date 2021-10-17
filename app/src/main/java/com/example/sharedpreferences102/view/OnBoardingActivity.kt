@@ -23,6 +23,8 @@ class OnBoardingActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_on_boarding)
 
+        viewModel.addNumOfVisited()
         viewModel.onAppIsOld()
+
     }
 }
